@@ -1,7 +1,0 @@
-mine: 
-  name: Kiit
-  age: 22
-  number: ${random.int[100,999]}
-  uuid: ${random.uuid} 
-server: 
-  port: 9898
