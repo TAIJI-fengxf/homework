@@ -1,0 +1,30 @@
+mine: 
+  name: Tom
+  age: 23
+  number: ${random.int[100,999]}
+  uuid: ${random.uuid}
+  
+server:
+  port: 8989
+
+
+logging:
+  level:
+    com: trace
+management:
+  security:
+    enabled: true #开启/关掉安全认证
+  #port: 8888
+  #context-path: /abc
+#配置安全
+security:
+  user:
+    name: admin
+    password: 123
+
+#配置端点
+endpoints:
+  actuator:
+    enabled: true
+  shutdown:
+    enabled: true

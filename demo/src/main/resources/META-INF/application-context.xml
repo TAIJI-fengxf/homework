@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="abcBean" class="cn.com.taiji.demo.bean.AbcBean">
+		<property name="name" value="Tom" />
+		<property name="age" value="13" />
+		<property name="tel" value="123456789" />
+		<property name="address" value="Cross" />
+	</bean>
+	<bean id="childBeanOne" class="cn.com.taiji.demo.bean.ChildBeanOne" >
+		<property name="beanOne" value="one"/>
+	</bean>
+	<bean id="childBeanTwo" class="cn.com.taiji.demo.bean.ChildBeanTwo" init-method="start" destroy-method="stop">
+		<property name="beanTwo" value="two"/>
+	</bean>
+	<bean id="parentBean" class="cn.com.taiji.demo.bean.ParentBean">
+		<constructor-arg>
+			<ref bean="childBeanOne"/>
+		</constructor-arg>
+		<constructor-arg ref="childBeanTwo"></constructor-arg>
+		<constructor-arg name="i" value="1"/>
+		<property name="beanOne">
+			<ref bean="childBeanOne"/>
+		</property>
+		<property name="beanTwo" ref="childBeanTwo"/>
+		<property name="i" value="1"/>
+	</bean>
+
+</beans>
