@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>登录界面</title>
+</head>
+<body>
+	<form th:action="@{/login}" th:object="${user}">
+		<fieldset>
+			用户名：<input type="text" th:field="*{username}" />
+			密码：<input type="password" th:field="*{password}" />
+			<input type="submit" value="提交" />
+		</fieldset>
+	</form>
+	
+</body>
+</html>
