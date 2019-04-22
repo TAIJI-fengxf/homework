@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8" />
+<title>Insert title here</title>
+</head>
+<body>
+	<table>
+        <thead>
+            <tr>
+                <th><span th:text="#{menuUsername}"></span></th>
+                <th><span th:text="#{menuPassword}"></span></th>
+                <th><span th:text="#{menuRolename}"></span></th>
+            </tr>
+            <tr th:each="user:${userList}">
+                <td th:text="${user.username}"></td>
+                <td th:text="${user.password}"></td>
+                <td th:text="${user.rolename}"></td>
+            </tr>
+        </thead>
+    </table>
+</body>
+</html>
