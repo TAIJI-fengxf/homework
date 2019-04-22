@@ -9,12 +9,13 @@
 javax.management.InstanceNotFoundException: org.apache.commons.dbcp2:name=da
 org.apache.commons.dbcp2:name=dataSource,type=BasicDataSource at com.sun.jmx.interceptor.DefaultMBeanServerInterce...
 >已解决-解决办法：
-.m2目录下的本地库中存在坏包：（1）在工作空间的当前项目路径下打开doc窗口，键入：mvn -Pnexus dependency:resolve
+.m2目录下的本地库中存在坏包：
+（1）在工作空间的当前项目路径下打开doc窗口，键入：mvn -Pnexus dependency:resolve
 （2）删掉本地库的相关依赖包，打开sts更新项目重新下载依赖包
 
-homework-login:国际化登录作业
-homework-mangodb:mangoDB圆形范围查询、图书页数范围查询作业
-homework-redis:redis实现3次登录失败后限制5分钟作业
+##homework-login:国际化登录作业
+##homework-mangodb:mangoDB圆形范围查询、图书页数范围查询作业
+##homework-redis:redis实现3次登录失败后限制5分钟作业
 
 #Redis 在Windows添加服务-开启服务的口令
 添加Redis服务：
