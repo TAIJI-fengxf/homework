@@ -1,10 +1,10 @@
-3-22日上午
-案例demo：
-基于XML的容器配置：
+## 3-22日上午
+>案例[demo](https://github.com/TAIJI-fengxf/homework/tree/master/demo)：
+- 基于XML的容器配置：
 将配置文件的classpath传入ApplicationContext的对象中，在控制台输出Beans的个数，遍历每个bean的名称和全类名利用反射机制从ApplicationContext的对象中得到指定Bean的全类名并输出
-3-22日下午
-案例demo-1：
-利用注解配置：需要先在pom配置文件插入Commons组件的依赖，
+## 3-22日下午
+>案例[demo-1](https://github.com/TAIJI-fengxf/homework/tree/master/demo-1)：
+- 利用注解配置：需要先在pom配置文件插入Commons组件的依赖，
 >出现的问题：
 - javax.management.InstanceNotFoundException: org.apache.commons.dbcp2:name=da
 org.apache.commons.dbcp2:name=dataSource,type=BasicDataSource at com.sun.jmx.interceptor.DefaultMBeanServerInterce...
@@ -18,11 +18,11 @@ org.apache.commons.dbcp2:name=dataSource,type=BasicDataSource at com.sun.jmx.int
 ## homework-redis:redis实现3次登录失败后限制5分钟作业
 
 ## Redis 在Windows添加服务----->开启服务的口令
-添加Redis服务：
+- 添加Redis服务：
 redis-server.exe --service-install redis.windows.conf --loglevel verbose
-开启服务
+- 开启服务
 redis-server --service-start
 
 ## MongoDB添加服务
-mongod.exe --logpath E:\mongodb\server\4.0\log\mongodb.log --logappend --dbpath E:\mongodb\server\4.0\data --directoryperdb --serviceName MongoDB –install
-mangodb添加服务口令 在redis文件夹下的cmd窗口 logpath和dbpath根据自己存储位置更改
+- mongod.exe --logpath E:\mongodb\server\4.0\log\mongodb.log --logappend --dbpath E:\mongodb\server\4.0\data --directoryperdb --serviceName MongoDB –install
+- mangodb添加服务口令 在redis文件夹下的cmd窗口 logpath和dbpath根据自己存储位置更改
