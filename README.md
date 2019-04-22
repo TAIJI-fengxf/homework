@@ -4,12 +4,10 @@
 >项目：[homework-mangodb](https://github.com/TAIJI-fengxf/homework/tree/master/homework-mongodb)
 ## redis实现3次登录失败后限制5分钟作业
 >项目：[homework-redis](https://github.com/TAIJI-fengxf/homework/tree/master/homework-redis)
-
-    -  哈哈
 ## Redis 在Windows添加服务----->开启服务的口令
-- 添加Redis服务：
+    - 添加Redis服务：
 redis-server.exe --service-install redis.windows.conf --loglevel verbose
-- 开启服务
+    -开启服务
 redis-server --service-start
 
 ## MongoDB添加服务
