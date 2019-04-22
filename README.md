@@ -17,12 +17,12 @@ org.apache.commons.dbcp2:name=dataSource,type=BasicDataSource at com.sun.jmx.int
 ## homework-mangodb:mangoDB圆形范围查询、图书页数范围查询作业
 ## homework-redis:redis实现3次登录失败后限制5分钟作业
 
-# Redis 在Windows添加服务----->开启服务的口令
+## Redis 在Windows添加服务----->开启服务的口令
 添加Redis服务：
 redis-server.exe --service-install redis.windows.conf --loglevel verbose
 开启服务
 redis-server --service-start
 
-# MongoDB添加服务
+## MongoDB添加服务
 mongod.exe --logpath E:\mongodb\server\4.0\log\mongodb.log --logappend --dbpath E:\mongodb\server\4.0\data --directoryperdb --serviceName MongoDB –install
 mangodb添加服务口令 在redis文件夹下的cmd窗口 logpath和dbpath根据自己存储位置更改
