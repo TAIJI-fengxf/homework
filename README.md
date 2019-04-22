@@ -1,7 +1,7 @@
 ## 国际化登录作业
 >项目：[homework-login](https://github.com/TAIJI-fengxf/homework/tree/master/homework-login)
 ## mangoDB圆形范围查询、图书页数范围查询作业
->项目：[homework-mangodb](https://github.com/TAIJI-fengxf/homework/tree/master/homework-mangodb)
+>项目：[homework-mangodb](https://github.com/TAIJI-fengxf/homework/tree/master/homework-mongodb)
 ## redis实现3次登录失败后限制5分钟作业
 >项目：[homework-redis](https://github.com/TAIJI-fengxf/homework/tree/master/homework-redis)
 
