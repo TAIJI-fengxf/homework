@@ -1,25 +1,3 @@
-1. 有序列表
-	1. 有序列表
-	2. 有序列表 
-2. 有序列表
- 
-
-- 无序列表
-- 无序列表
-	- 无序列表子列表
-	- 无序列表子列表
-		- 无序列表二级子列表
-		- 无序列表二级子列表
-
-
-
-
-
-
-
-
-
-
 ## 国际化登录作业
 >项目：[homework-login](https://github.com/TAIJI-fengxf/homework/tree/master/homework-login)
 ## mangoDB圆形范围查询、图书页数范围查询作业
