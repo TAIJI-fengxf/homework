@@ -6,7 +6,7 @@
 >项目：[homework-redis](https://github.com/TAIJI-fengxf/homework/tree/master/homework-redis)
 
 ## Redis 在Windows添加服务----->开启服务的口令
- -添加Redis服务：
+ - 添加Redis服务：
 redis-server.exe --service-install redis.windows.conf --loglevel verbose
 - 开启服务
 redis-server --service-start
