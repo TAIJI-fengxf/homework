@@ -1,9 +1,9 @@
 ## 国际化登录作业
->[homework-login](https://github.com/TAIJI-fengxf/homework/tree/master/homework-login)
+>项目：[homework-login](https://github.com/TAIJI-fengxf/homework/tree/master/homework-login)
 ## mangoDB圆形范围查询、图书页数范围查询作业
->[homework-mangodb](https://github.com/TAIJI-fengxf/homework/tree/master/homework-mangodb)
+>项目：[homework-mangodb](https://github.com/TAIJI-fengxf/homework/tree/master/homework-mangodb)
 ## redis实现3次登录失败后限制5分钟作业
->[homework-redis](https://github.com/TAIJI-fengxf/homework/tree/master/homework-redis)
+>项目：[homework-redis](https://github.com/TAIJI-fengxf/homework/tree/master/homework-redis)
 
 ## Redis 在Windows添加服务----->开启服务的口令
 - 添加Redis服务：
